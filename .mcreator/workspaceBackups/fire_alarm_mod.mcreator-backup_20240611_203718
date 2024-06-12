@@ -1,0 +1,280 @@
+{
+  "mod_elements": [
+    {
+      "name": "FireAlarms",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_alarms",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FireAlarm",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_alarm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fire_alarm_mod/models/block/fire_alarm.json",
+          "src/main/resources/assets/fire_alarm_mod/blockstates/fire_alarm.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/fire_alarm.json",
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/fire_alarm.json",
+          "src/main/java/com/donovan/firealarmmod/block/FireAlarmBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FireAlarmRedstoneOn",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_alarm_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/com/donovan/firealarmmod/procedures/FireAlarmRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PullstationKey",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullstation_key",
+      "metadata": {
+        "files": [
+          "src/main/java/com/donovan/firealarmmod/item/PullstationKeyItem.java",
+          "src/main/resources/assets/fire_alarm_mod/models/item/pullstation_key.json"
+        ]
+      }
+    },
+    {
+      "name": "PullstationGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "pullstation_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/donovan/firealarmmod/client/gui/PullstationGUIScreen.java",
+          "src/main/java/com/donovan/firealarmmod/world/inventory/PullstationGUIMenu.java",
+          "src/main/java/com/donovan/firealarmmod/network/PullstationGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "FireClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/donovan/firealarmmod/procedures/FireClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pullstation",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullstation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fire_alarm_mod/blockstates/pullstation.json",
+          "src/main/java/com/donovan/firealarmmod/block/entity/PullstationBlockEntity.java",
+          "src/main/resources/assets/fire_alarm_mod/models/item/pullstation.json",
+          "src/main/resources/assets/fire_alarm_mod/models/block/pullstation.json",
+          "src/main/java/com/donovan/firealarmmod/block/PullstationBlock.java",
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/pullstation.json"
+        ]
+      }
+    },
+    {
+      "name": "PullstationW",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullstation_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/pullstation_w.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/pullstation_w.json",
+          "src/main/resources/assets/fire_alarm_mod/models/block/pullstation_w.json",
+          "src/main/resources/assets/fire_alarm_mod/blockstates/pullstation_w.json",
+          "src/main/java/com/donovan/firealarmmod/block/entity/PullstationWBlockEntity.java",
+          "src/main/java/com/donovan/firealarmmod/block/PullstationWBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PullstationN",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullstation_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fire_alarm_mod/blockstates/pullstation_n.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/pullstation_n.json",
+          "src/main/resources/assets/fire_alarm_mod/models/block/pullstation_n.json",
+          "src/main/java/com/donovan/firealarmmod/block/PullstationNBlock.java",
+          "src/main/java/com/donovan/firealarmmod/block/entity/PullstationNBlockEntity.java",
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/pullstation_n.json"
+        ]
+      }
+    },
+    {
+      "name": "PullstationE",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pullstation_e",
+      "metadata": {
+        "files": [
+          "src/main/java/com/donovan/firealarmmod/block/entity/PullstationEBlockEntity.java",
+          "src/main/java/com/donovan/firealarmmod/block/PullstationEBlock.java",
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/pullstation_e.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/pullstation_e.json",
+          "src/main/resources/assets/fire_alarm_mod/models/block/pullstation_e.json",
+          "src/main/resources/assets/fire_alarm_mod/blockstates/pullstation_e.json"
+        ]
+      }
+    },
+    {
+      "name": "FireAlarmW",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_alarm_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/fire_alarm_w.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/fire_alarm_w.json",
+          "src/main/resources/assets/fire_alarm_mod/blockstates/fire_alarm_w.json",
+          "src/main/java/com/donovan/firealarmmod/block/FireAlarmWBlock.java",
+          "src/main/resources/assets/fire_alarm_mod/models/block/fire_alarm_w.json"
+        ]
+      }
+    },
+    {
+      "name": "FireAlarmN",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_alarm_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fire_alarm_mod/blockstates/fire_alarm_n.json",
+          "src/main/resources/assets/fire_alarm_mod/models/item/fire_alarm_n.json",
+          "src/main/resources/data/fire_alarm_mod/loot_tables/blocks/fire_alarm_n.json",
+          "src/main/resources/assets/fire_alarm_mod/models/block/fire_alarm_n.json",
+          "src/main/java/com/donovan/firealarmmod/block/FireAlarmNBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "fire_alarm_sound",
+      "files": [
+        "system_sensor_spectralert_advance_sound_effect_in_code-3_horn_tuberipper.com-audiotrimmer.com"
+      ],
+      "category": "block",
+      "subtitle": "Fire Alarm Blares"
+    }
+  ],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item_group.fire_alarm_mod.fire_alarms": "Fire Alarms",
+      "gui.fire_alarm_mod.pullstation_gui.ZText": "Z",
+      "block.fire_alarm_mod.pullstation_w": "Pullstation West",
+      "item.fire_alarm_mod.pullstation_key": "Pullstation Key",
+      "block.fire_alarm_mod.fire_alarm_n": "Fire Alarm North",
+      "gui.fire_alarm_mod.pullstation_gui.X": "X",
+      "gui.fire_alarm_mod.pullstation_gui.Z": "Z",
+      "gui.fire_alarm_mod.pullstation_gui.XText": "X",
+      "block.fire_alarm_mod.pullstation_n": "Pullstation North",
+      "gui.fire_alarm_mod.pullstation_gui.Y": "Y",
+      "gui.fire_alarm_mod.pullstation_gui.button_fire": "FIRE",
+      "block.fire_alarm_mod.pullstation": "Pullstation South",
+      "block.fire_alarm_mod.fire_alarm_w": "Fire Alarm West",
+      "subtitles.fire_alarm_sound": "Fire Alarm Blares",
+      "gui.fire_alarm_mod.pullstation_gui.YText": "Y",
+      "gui.fire_alarm_mod.pullstation_gui.button_save": "Save",
+      "block.fire_alarm_mod.pullstation_e": "Pullstation East",
+      "block.fire_alarm_mod.fire_alarm": "Fire Alarm South",
+      "gui.fire_alarm_mod.pullstation_gui.label_coordinates_of_redstone_block": "Coordinates of redstone block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fire_alarm_mod",
+    "modName": "Fire Alarm Mod",
+    "version": "1.0.0",
+    "author": "donov, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "com.donovan.firealarmmod"
+  },
+  "mcreatorVersion": 202400118518
+}

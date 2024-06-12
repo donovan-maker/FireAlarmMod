@@ -1,0 +1,9 @@
+{
+  "parent": "fire_alarm_mod:custom/pullstation",
+  "textures": {
+    "all": "fire_alarm_mod:block/pullstation",
+    "particle": "fire_alarm_mod:block/pullstation",
+    "0": "fire_alarm_mod:block/baseps"
+  },
+  "render_type": "solid"
+}

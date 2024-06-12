@@ -1,0 +1,85 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coordinates_of_redstone_block",
+          "text": {
+            "fixedValue": "Coordinates of redstone block"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 42
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "X",
+          "name": "XText",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 71
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Y",
+          "name": "YText",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 103
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Z",
+          "name": "ZText",
+          "width": 120,
+          "height": 20,
+          "x": 152,
+          "y": 140
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fire",
+          "text": "FIRE",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FireClicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 188,
+          "y": 171
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

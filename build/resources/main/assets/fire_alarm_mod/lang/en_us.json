@@ -1,0 +1,22 @@
+{
+  "item_group.fire_alarm_mod.fire_alarms": "Fire Alarms",
+  "block.fire_alarm_mod.fire_alarm_e": "Fire Alarm East",
+  "gui.fire_alarm_mod.pullstation_gui.ZText": "Z",
+  "block.fire_alarm_mod.pullstation_w": "Pullstation West",
+  "item.fire_alarm_mod.pullstation_key": "Pullstation Key",
+  "block.fire_alarm_mod.fire_alarm_n": "Fire Alarm North",
+  "gui.fire_alarm_mod.pullstation_gui.X": "X",
+  "gui.fire_alarm_mod.pullstation_gui.Z": "Z",
+  "gui.fire_alarm_mod.pullstation_gui.XText": "X",
+  "block.fire_alarm_mod.pullstation_n": "Pullstation North",
+  "gui.fire_alarm_mod.pullstation_gui.Y": "Y",
+  "gui.fire_alarm_mod.pullstation_gui.button_fire": "FIRE",
+  "block.fire_alarm_mod.pullstation": "Pullstation South",
+  "block.fire_alarm_mod.fire_alarm_w": "Fire Alarm West",
+  "subtitles.fire_alarm_sound": "Fire Alarm Blares",
+  "gui.fire_alarm_mod.pullstation_gui.YText": "Y",
+  "gui.fire_alarm_mod.pullstation_gui.button_save": "Save",
+  "block.fire_alarm_mod.pullstation_e": "Pullstation East",
+  "block.fire_alarm_mod.fire_alarm": "Fire Alarm South",
+  "gui.fire_alarm_mod.pullstation_gui.label_coordinates_of_redstone_block": "Coordinates of redstone block"
+}

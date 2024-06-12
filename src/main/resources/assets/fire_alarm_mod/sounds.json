@@ -1,0 +1,11 @@
+{
+  "fire_alarm_sound": {
+    "subtitle": "subtitles.fire_alarm_sound",
+    "sounds": [
+      {
+        "name": "fire_alarm_mod:system_sensor_spectralert_advance_sound_effect_in_code-3_horn_tuberipper.com-audiotrimmer.com",
+        "stream": false
+      }
+    ]
+  }
+}

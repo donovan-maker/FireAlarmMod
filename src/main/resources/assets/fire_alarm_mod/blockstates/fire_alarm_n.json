@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fire_alarm_mod:block/fire_alarm_n"
+    }
+  }
+}

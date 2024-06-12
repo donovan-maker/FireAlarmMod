@@ -1,0 +1,9 @@
+{
+  "parent": "fire_alarm_mod:custom/fire_alarme",
+  "textures": {
+    "all": "fire_alarm_mod:block/fire_alarm_picture",
+    "particle": "fire_alarm_mod:block/fire_alarm_picture",
+    "0": "fire_alarm_mod:block/base"
+  },
+  "render_type": "solid"
+}
